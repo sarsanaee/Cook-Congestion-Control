@@ -1,5 +1,5 @@
 # Data Center Networking
-I'm going to learn about congestion control algorithms and techniques for data centers.
+I'm going to learn about data center networking.
 
 ## Content
 I don't know yet.
