@@ -16,7 +16,7 @@ I don't know yet.
 4. [TCP Fast](https://web.archive.org/web/20060512134100/http://netlab.caltech.edu/pub/papers/fast-network05.pdf)
 5. [TCP Vegas](https://sites.cs.ucsb.edu/~almeroth/classes/F05.276/papers/vegas.pdf)
 6. [A Compound TCP Approach for High-speed and Long Distance Networks](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-86.pdf)
-7. [TIMELY: RTT-based Congestion Control for the Datacenter (https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p537.pdf) *
+7. [TIMELY: RTT-based Congestion Control for the Datacenter](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p537.pdf) *
 
 
 ### Software NICs
