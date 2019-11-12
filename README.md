@@ -32,7 +32,7 @@ I don't know yet.
 4. [Got Loss? Get zOVN!](https://dl.acm.org/citation.cfm?id=2486024)
 
 ### Various Slide
-1. [Nice deck of slides for learning distinction between ECN and Delay](http://people.csail.mit.edu/ghobadi/slides/ecn_vs_delay_vishal_slides_conext_2016.pdf)
+1. [Nice deck of slides for learning the distinction between ECN and Delay](http://people.csail.mit.edu/ghobadi/slides/ecn_vs_delay_vishal_slides_conext_2016.pdf)
 
 
 ## Courses
