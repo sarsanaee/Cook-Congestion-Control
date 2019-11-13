@@ -18,6 +18,8 @@ I don't know yet.
 6. [A Compound TCP Approach for High-speed and Long Distance Networks](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-86.pdf)
 7. [TIMELY: RTT-based Congestion Control for the Datacenter](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p537.pdf) *
 
+### Rate Limiting
+1. [Eiffel: Efficient and Flexible Software Packet Scheduling](https://www.usenix.org/system/files/nsdi19spring_saeed_prepub.pdf)
 
 ### Software NICs
 1.  [Evaluating the performance of software NICs for 100-gb/s datacenter traffic control](https://dl.acm.org/citation.cfm?id=3230728)
@@ -30,6 +32,9 @@ I don't know yet.
 2. [Practical DCB for Improved Data Center Networks](http://pages.cs.wisc.edu/~brentstephens/docs/tcp-bolt.infocom14.pdf)
 3. [Revisiting Network Support for RDMA](https://people.eecs.berkeley.edu/~radhika/irn.pdf)
 4. [Got Loss? Get zOVN!](https://dl.acm.org/citation.cfm?id=2486024)
+
+### Overlay Network
+1. [Got Loss? Get zOVN!](https://researcher.watson.ibm.com/researcher/files/zurich-DCR/Got%20Loss%20Get%20zOVN.pdf)
 
 ### Various Slide
 1. [Nice deck of slides for learning the distinction between ECN and Delay](http://people.csail.mit.edu/ghobadi/slides/ecn_vs_delay_vishal_slides_conext_2016.pdf)
