@@ -21,6 +21,9 @@ I don't know yet.
 ### Rate Limiting
 1. [Eiffel: Efficient and Flexible Software Packet Scheduling](https://www.usenix.org/system/files/nsdi19spring_saeed_prepub.pdf)
 
+### Receive-Side Driven Transport Protocol
+1. HOMA
+
 ### Software NICs
 1.  [Evaluating the performance of software NICs for 100-gb/s datacenter traffic control](https://dl.acm.org/citation.cfm?id=3230728)
 
