@@ -48,3 +48,5 @@ and now it is 8.
      
 ### BESS DCB configuration
 NICs are connected to BESS through DPDK so no Linux based driver would have control over the NIC. I think DPDK should configure the DCB itself. If you believe what I'm saying doesn't make any sense let me know!
+
+I believe the source code of the `testpmd` would be a good point to start with. I track the code and found the code snippet related to the `DCB` configuration. I'm gonna port the snippet to my BESS PMD port. [Here](https://github.com/DPDK/dpdk/blob/3be76aa9294f3788b4f9c615642e6027f1b7948a/app/test-pmd/testpmd.c#L3210) is the pointer to the snippet.
