@@ -50,3 +50,6 @@ and now it is 8.
 NICs are connected to BESS through DPDK so no Linux based driver would have control over the NIC. I think DPDK should create and DCB activated PMDport, and then somehow I need to configure the mapping. If you believe what I'm saying doesn't make any sense let me know!
 
 I believe the source code of the `testpmd` would be a good point to start with. I track the code and found the code snippet related to the `DCB` configuration. I'm gonna port the snippet to my BESS PMDport. [Here](https://github.com/DPDK/dpdk/blob/3be76aa9294f3788b4f9c615642e6027f1b7948a/app/test-pmd/testpmd.c#L3210) is the pointer to the snippet.
+
+### Mellanox NICs
+Mellanox PMD port has some dependecies, so DPDK deactivate them by default. For resovling those dependencies. We need to install [OFED](https://www.mellanox.com/page/products_dyn?product_family=26&mtag=linux_sw_drivers&ssn=v2fobgocpc49s8m2asdsf74di0) packages which is provided by the company. However, I just realized that the current BESS only works with OFED 4.4 and it is not compatible with OFED 4.7 which is the latest version.
