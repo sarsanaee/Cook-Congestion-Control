@@ -53,3 +53,8 @@ I believe the source code of the `testpmd` would be a good point to start with. 
 
 ### Mellanox NICs
 Mellanox PMD port has some dependecies, so DPDK deactivate them by default. For resovling those dependencies. We need to install [OFED](https://www.mellanox.com/page/products_dyn?product_family=26&mtag=linux_sw_drivers&ssn=v2fobgocpc49s8m2asdsf74di0) packages which is provided by the company. However, I just realized that the current BESS only works with OFED 4.4 and it is not compatible with OFED 4.7 which is the latest version. The important thing in OFED installation, for dpdk obviously, is actually the installation parameters which are `./mlnxofedinstall --dpdk --upstream-libs`.
+
+### Intel NICs
+For Intel NICs, I have only tried `Intel 82599ES 10-Gigabit` and the only important point in the configuration would be the number of queues that should be exactly 128 when calling `rte_eth_dev_configure`. I have never had a succesfull configuration when had less than 128 queues.
+
+There is a note at this [page](https://doc.dpdk.org/guides/prog_guide/poll_mode_drv.html) that I found it a bit late, but says: **When configuring for DCB operation, at port initialization, both the number of transmit queues and the number of receive queues must be set to 128**.
