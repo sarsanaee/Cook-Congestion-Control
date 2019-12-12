@@ -44,7 +44,7 @@ and now it is 8.
      TXQ number :	   1	   1	   1	   1	   1	   1	   1	   1
      ```
 5. `sudo ./testpmd -l 0-10 -n 4 -- -i --portmask=0x1 --nb-cores=10 --rxq=10 --txq=10`
-     1. This is fair enough, I just tried some diffrenent command line options to investigate more.
+     1. This is fair enough, I just tried some different command line options to investigate more.
      
 ### BESS DCB configuration
 NICs are connected to BESS through DPDK so no Linux based driver would have control over the NIC. I think DPDK should create and DCB activated PMDport, and then somehow I need to configure the mapping. If you believe what I'm saying doesn't make any sense let me know!
