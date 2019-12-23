@@ -1,8 +1,8 @@
 ### DCB configuration
 
 I trying to do the DCB configuration for `Ethernet controller: Intel Corporation 82599ES 10-Gigabit SFI/SFP+ Network Connection`, 
-I know a little about DCB(Data Center Bridging) but it seems this DCB abd VMDQ(Virtual Machine Device Queue) are all together usually.
- There is a DPDK sample application configures DCP + VMQD together. It is located at `DPDK_ROOT/example/vmdq_dcb`, there is also a VMDQ only
+I know a little about DCB(Data Center Bridging) but it seems this DCB and VMDQ(Virtual Machine Device Queue) are all together usually.
+ There is a DPDK sample application configures DCP + VMQD together. It is located at `DPDK_ROOT/example/vmdq`, there is also a VMDQ only
  example at `DPDK_ROOT/example/vmdq_dcb`. For now I only intend to configure two traffic classes with DCB.
 
 A sequence of commands comes handy and I want to keep them here!
