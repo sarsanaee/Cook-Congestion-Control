@@ -38,10 +38,12 @@ I don't know yet.
 1. [RDMA over Commodity Ethernet at Scale](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/rdma_sigcomm2016.pdf)
 2. [Practical DCB for Improved Data Center Networks](http://pages.cs.wisc.edu/~brentstephens/docs/tcp-bolt.infocom14.pdf)
 3. [Revisiting Network Support for RDMA](https://people.eecs.berkeley.edu/~radhika/irn.pdf)
-4. [Got Loss? Get zOVN!](https://dl.acm.org/citation.cfm?id=2486024)
 
 ### Overlay Network
 1. [Got Loss? Get zOVN!](https://researcher.watson.ibm.com/researcher/files/zurich-DCR/Got%20Loss%20Get%20zOVN.pdf)
+
+### DPDK
+1. [Spin To Win](https://dl.acm.org/doi/10.1145/3357223.3362737)
 
 ### Various Slide
 1. [Nice deck of slides for learning the distinction between ECN and Delay](http://people.csail.mit.edu/ghobadi/slides/ecn_vs_delay_vishal_slides_conext_2016.pdf)
